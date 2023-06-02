@@ -1,0 +1,18 @@
+.form{text-align: center;}
+.form button{
+     background: #fff;
+     color:#000;
+     border:0;
+     margin: 5px 0;
+     padding:0.2rem 2rem;
+     font-weight: bold;
+     transition: 0.3s;
+}
+
+.form button:hover,
+.form button:active{
+     background: #000;
+     color: #fff;
+}
+
+

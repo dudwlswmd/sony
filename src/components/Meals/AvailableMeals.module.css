@@ -1,0 +1,35 @@
+.meals{
+     color:#fff;
+     width: 90%;
+     margin: 2rem auto;
+     animation: identifier 3s ease-in-out  ;
+}
+.meals ul{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+@keyframes identifier {
+     0%{
+          transform: translateY(0);
+     }
+     10%{
+          transform: translateY(30rem);
+     }
+     30%{
+          transform: translateY(-50rem);
+     }
+     60%{
+          transform: translateY(0);
+          opacity: 1;
+     }
+     100%{
+          transform: translateY(0);
+          opacity: 1;
+          display: block;
+
+     }
+}
+
+

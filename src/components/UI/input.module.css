@@ -1,0 +1,10 @@
+.input{}
+.input label{
+     margin-right:1rem;
+     font-weight: bold;
+}
+.input input{
+     width: 3rem;
+     border-radius: 5px;
+     border: 3px solid #fff;
+}

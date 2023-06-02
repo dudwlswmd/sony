@@ -1,0 +1,86 @@
+.cart-items{
+     /* border: 1px solid red; */
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     max-height: 420px;
+     overflow-y: auto;
+}
+.cart-items li{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 0;
+     border-bottom:2px solid navy;
+}
+h2{
+     margin:0 0 0.5rem 0;
+     color:#000;
+     font-size:1.5rem
+}
+.cart-items li button{
+     cursor: pointer;
+     background: transparent;
+     border: 1px solid navy;
+     margin-left: 0.3rem;
+     font-size:1.2rem;
+     width: 35px;
+     height: 35px;
+     text-align: center;
+}
+.btns{
+     display: flex;
+     flex-direction: row;
+}
+
+@media (max-width:768px){
+     .btns{flex-direction: column;}
+}
+.itemButtons{
+}
+.price{
+     color:navy;
+     font-weight: bold;
+}
+.amount{margin-left:2rem;
+border:2px solid navy;
+border-radius: 3px;
+padding: 0rem 0.3rem;
+
+
+}
+
+.total{
+     display: flex;
+     justify-content: space-between;
+     margin:1rem 0;
+     font-size:1.5rem;
+     font-weight: bold;
+}
+
+.action{text-align: right;}
+.action button{
+     padding: 0.5rem 2rem;
+     border:1px solid navy;
+     border-radius: 999px;
+     background-color: transparent;
+     cursor: pointer;
+     transition: 0.3s;
+}
+
+.action button:hover, 
+.action button:active {
+     background-color: rgb(0, 0, 43);
+     color:white
+}
+
+.action .button-outline{
+color:navy;
+}
+.action .button{
+     background-color: navy;
+     color:#fff;
+}
+
+
+
